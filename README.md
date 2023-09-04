@@ -2,6 +2,8 @@
 
 Grid plugin for Lexical @lexical/react
 
+![Example](./doc/editor-example.png)
+
 ## How to use
 
 Add the plugin to the editor
