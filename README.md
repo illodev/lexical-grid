@@ -6,7 +6,7 @@ Grid plugin for Lexical @lexical/react
 
 ## How to use
 
-Add the plugin to the editor
+Add nodes to the editor
 
 ```ts
 const Nodes: Array<Klass<LexicalNode>> = [
