@@ -23,6 +23,20 @@ Add the plugin to the editor
 return () => <GridPlugin />;
 ```
 
+Add Styles (tailwindcss)
+
+```css
+.Grid__container {
+    @apply grid gap-2 p-1 my-2;
+}
+.Grid__row {
+    @apply grid gap-2 grid-flow-col auto-cols-fr;
+}
+.Grid__column {
+    @apply p-2 border border-gray-400 border-dashed rounded;
+}
+```
+
 ## Example
 
 ```tsx
@@ -42,4 +56,3 @@ return () => (
     </Button>
 );
 ```
-
